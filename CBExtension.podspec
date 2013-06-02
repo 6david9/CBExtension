@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'Free to use'
 
   s.author       = { "ly" => "6david9@163.com" }
-  s.source       = { :git => "https://github.com/6david9/CBExtension.git",
-                     :commit=>"18e6040068116a90159521055bcfddc1292915d6" }
+  s.source       = { :git => "https://github.com/6david9/CBExtension.git" }
 
   s.source_files = 'CBExtension/CBExtension'
 
