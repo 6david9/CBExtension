@@ -10,7 +10,7 @@
 
 @implementation NSFileManager (CBExtension)
 
-+ (BOOL)iCoundAvaliable:(NSString *)containerID
++ (BOOL)iCloudAvaliable:(NSString *)containerID
 {
     NSURL *ubiq = [[NSFileManager defaultManager]
                    URLForUbiquityContainerIdentifier:containerID];

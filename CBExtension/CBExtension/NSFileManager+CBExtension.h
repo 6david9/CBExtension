@@ -10,6 +10,6 @@
 
 @interface NSFileManager (CBExtension)
 
-+ (BOOL)iCoundAvaliable:(NSString *)containerID;
++ (BOOL)iCloudAvaliable:(NSString *)containerID;
 
 @end
