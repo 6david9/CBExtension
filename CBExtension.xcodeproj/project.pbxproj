@@ -18,7 +18,8 @@
 		0852805A175B0C9300B60F98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08528059175B0C9300B60F98 /* Default-568h@2x.png */; };
 		0852805D175B0C9300B60F98 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0852805B175B0C9300B60F98 /* MainStoryboard.storyboard */; };
 		08528060175B0C9300B60F98 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852805F175B0C9300B60F98 /* CBViewController.m */; };
-		0852806D175B0FA200B60F98 /* NSFileManager+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852806C175B0FA200B60F98 /* NSFileManager+CBExtension.m */; };
+		0852806D175B0FA200B60F98 /* NSFileManager+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852806C175B0FA200B60F98 /* NSFileManager+iCloud.m */; };
+		08F60823176E0700003D3149 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F60821176E0700003D3149 /* NSObject+Runtime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +39,18 @@
 		0852805C175B0C9300B60F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0852805E175B0C9300B60F98 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
 		0852805F175B0C9300B60F98 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
-		0852806B175B0FA200B60F98 /* NSFileManager+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+CBExtension.h"; sourceTree = "<group>"; };
-		0852806C175B0FA200B60F98 /* NSFileManager+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CBExtension.m"; sourceTree = "<group>"; };
+		0852806B175B0FA200B60F98 /* NSFileManager+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+iCloud.h"; sourceTree = "<group>"; };
+		0852806C175B0FA200B60F98 /* NSFileManager+iCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+iCloud.m"; sourceTree = "<group>"; };
+		08F60820176E0700003D3149 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		08F60821176E0700003D3149 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		08F60822176E0700003D3149 /* RuntimeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeExtension.h; sourceTree = "<group>"; };
+		08F60825176E09F7003D3149 /* BundleMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleMacro.h; sourceTree = "<group>"; };
+		08F60826176E09F7003D3149 /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		08F60827176E09F7003D3149 /* FontMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontMacro.h; sourceTree = "<group>"; };
+		08F60828176E09F7003D3149 /* ImageMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMacro.h; sourceTree = "<group>"; };
+		08F60829176E09F7003D3149 /* UtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacro.h; sourceTree = "<group>"; };
+		08F6082D176E0A48003D3149 /* FoundationExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationExtension.h; sourceTree = "<group>"; };
+		08F6082E176E0B11003D3149 /* CBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,9 @@
 		08528049175B0C9300B60F98 /* CBExtension */ = {
 			isa = PBXGroup;
 			children = (
+				08F6082E176E0B11003D3149 /* CBExtension.h */,
+				08F60824176E09F7003D3149 /* UtilityMacro */,
+				08F6081F176E0700003D3149 /* RuntimeExtension */,
 				0852806A175B0FA200B60F98 /* CBExtension */,
 				08528066175B0C9E00B60F98 /* Controllers */,
 				0852804A175B0C9300B60F98 /* Supporting Files */,
@@ -122,10 +136,57 @@
 		0852806A175B0FA200B60F98 /* CBExtension */ = {
 			isa = PBXGroup;
 			children = (
-				0852806B175B0FA200B60F98 /* NSFileManager+CBExtension.h */,
-				0852806C175B0FA200B60F98 /* NSFileManager+CBExtension.m */,
+				08F6082D176E0A48003D3149 /* FoundationExtension.h */,
+				08F6082C176E0A29003D3149 /* Extension */,
 			);
 			path = CBExtension;
+			sourceTree = "<group>";
+		};
+		08F6081F176E0700003D3149 /* RuntimeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				08F60822176E0700003D3149 /* RuntimeExtension.h */,
+				08F6082B176E0A13003D3149 /* Extension */,
+			);
+			path = RuntimeExtension;
+			sourceTree = "<group>";
+		};
+		08F60824176E09F7003D3149 /* UtilityMacro */ = {
+			isa = PBXGroup;
+			children = (
+				08F60829176E09F7003D3149 /* UtilityMacro.h */,
+				08F6082A176E0A05003D3149 /* Macro */,
+			);
+			path = UtilityMacro;
+			sourceTree = "<group>";
+		};
+		08F6082A176E0A05003D3149 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				08F60825176E09F7003D3149 /* BundleMacro.h */,
+				08F60826176E09F7003D3149 /* ColorMacro.h */,
+				08F60827176E09F7003D3149 /* FontMacro.h */,
+				08F60828176E09F7003D3149 /* ImageMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		08F6082B176E0A13003D3149 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				08F60820176E0700003D3149 /* NSObject+Runtime.h */,
+				08F60821176E0700003D3149 /* NSObject+Runtime.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		08F6082C176E0A29003D3149 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0852806B175B0FA200B60F98 /* NSFileManager+iCloud.h */,
+				0852806C175B0FA200B60F98 /* NSFileManager+iCloud.m */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +259,8 @@
 				08528050175B0C9300B60F98 /* main.m in Sources */,
 				08528054175B0C9300B60F98 /* CBAppDelegate.m in Sources */,
 				08528060175B0C9300B60F98 /* CBViewController.m in Sources */,
-				0852806D175B0FA200B60F98 /* NSFileManager+CBExtension.m in Sources */,
+				0852806D175B0FA200B60F98 /* NSFileManager+iCloud.m in Sources */,
+				08F60823176E0700003D3149 /* NSObject+Runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +351,7 @@
 				GCC_PREFIX_HEADER = "CBExtension/CBExtension-Prefix.pch";
 				INFOPLIST_FILE = "CBExtension/CBExtension-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,6 +363,7 @@
 				GCC_PREFIX_HEADER = "CBExtension/CBExtension-Prefix.pch";
 				INFOPLIST_FILE = "CBExtension/CBExtension-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -323,6 +387,7 @@
 				08528065175B0C9300B60F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

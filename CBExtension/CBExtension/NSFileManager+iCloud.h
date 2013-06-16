@@ -1,5 +1,5 @@
 //
-//  NSFileManager+CBExtension.h
+//  NSFileManager+iCloud.h
 //  CBExtension
 //
 //  Created by ly on 13-6-2.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSFileManager (CBExtension)
+@interface NSFileManager (iCloud)
 
 + (BOOL)iCloudAvaliable:(NSString *)containerID;
 
