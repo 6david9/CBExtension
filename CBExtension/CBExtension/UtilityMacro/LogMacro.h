@@ -13,4 +13,6 @@
 #define pi(var_i)     NSLog(@"%d", var_i)
 #define pf(var_f)     NSLog(@"%f", var_f)
 
+#define print_function()      NSLog(@"%s", __PRETTY_FUNCTION__)
+
 #endif
