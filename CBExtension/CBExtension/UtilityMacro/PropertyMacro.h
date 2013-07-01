@@ -13,4 +13,8 @@
 #define WeakProperty        @property (weak, nonatomic)
 #define AssignProperty      @property (assign, nonatomic)
 
+#define StrongProperty_r      @property (strong, nonatomic, readonly)
+#define WeakProperty_r        @property (weak, nonatomic, readonly)
+#define AssignProperty_r      @property (assign, nonatomic, readonly)
+
 #endif

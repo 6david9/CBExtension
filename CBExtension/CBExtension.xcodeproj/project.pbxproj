@@ -63,6 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A9BAA317810954007E6027 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				08B8819F177F35BE00A87CB8 /* AlertViewMacro.h */,
+				08B881A0177F35BE00A87CB8 /* BundleMacro.h */,
+				08B881A1177F35BE00A87CB8 /* ColorMacro.h */,
+				08B881A2177F35BE00A87CB8 /* FontMacro.h */,
+				08B881A3177F35BE00A87CB8 /* ImageMacro.h */,
+				08B881A4177F35BE00A87CB8 /* LogMacro.h */,
+				08B881A5177F35BE00A87CB8 /* URLMacro.h */,
+				08A9BAA21780FB2E007E6027 /* PropertyMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
 		08B88178177F34EF00A87CB8 = {
 			isa = PBXGroup;
 			children = (
@@ -126,15 +141,8 @@
 		08B8819E177F35BE00A87CB8 /* UtilityMacro */ = {
 			isa = PBXGroup;
 			children = (
-				08B8819F177F35BE00A87CB8 /* AlertViewMacro.h */,
-				08B881A0177F35BE00A87CB8 /* BundleMacro.h */,
-				08B881A1177F35BE00A87CB8 /* ColorMacro.h */,
-				08B881A2177F35BE00A87CB8 /* FontMacro.h */,
-				08B881A3177F35BE00A87CB8 /* ImageMacro.h */,
-				08B881A4177F35BE00A87CB8 /* LogMacro.h */,
-				08B881A5177F35BE00A87CB8 /* URLMacro.h */,
-				08A9BAA21780FB2E007E6027 /* PropertyMacro.h */,
 				08B881A6177F35BE00A87CB8 /* UtilityMacro.h */,
+				08A9BAA317810954007E6027 /* Macro */,
 			);
 			path = UtilityMacro;
 			sourceTree = "<group>";
