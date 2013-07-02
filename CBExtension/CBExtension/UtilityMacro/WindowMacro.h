@@ -9,6 +9,7 @@
 #ifndef CBExtension_WindowMacro_h
 #define CBExtension_WindowMacro_h
 
-#define KeyWindow   [[UIApplication sharedApplication] keyWindow]
+#define KeyWindow       [[UIApplication sharedApplication] keyWindow]
+#define MainWindow      [[[UIApplication sharedApplication] delegate] window]
 
 #endif
