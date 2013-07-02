@@ -9,6 +9,6 @@
 #ifndef URLMacro_h
 #define URLMacro_h
 
-#define URLFromString(str)   [NSURL URLWithString:str]
+#define URLFromString(str)   [NSURL URLWithString:(str)]
 
 #endif

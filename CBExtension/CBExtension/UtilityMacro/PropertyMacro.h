@@ -9,12 +9,27 @@
 #ifndef CBExtension_PropertyMacro_h
 #define CBExtension_PropertyMacro_h
 
-#define StrongProperty      @property (strong, nonatomic)
-#define WeakProperty        @property (weak, nonatomic)
-#define AssignProperty      @property (assign, nonatomic)
+#define __has_feature(objc_arc)
+#define CB_STRONG   strong
+#else 
+#define CB_STRONG   retain
+#endif
 
-#define StrongProperty_r      @property (strong, nonatomic, readonly)
-#define WeakProperty_r        @property (weak, nonatomic, readonly)
+#define __has_feature(objc_arc_weak)
+#define CB_WEAK     weak
+#elif __has_feature(objc_arc)
+#define CB_WEAK     unsafe_unretained
+#else
+#define CB_WEAK     assign
+#endif
+
+
+#define StrongProperty        @property (CB_STRONG, nonatomic)
+#define WeakProperty          @property (CB_WEAK, nonatomic)
+#define AssignProperty        @property (assign, nonatomic)
+
+#define StrongProperty_r      @property (CB_STRONG, nonatomic, readonly)
+#define WeakProperty_r        @property (CB_WEAK, nonatomic, readonly)
 #define AssignProperty_r      @property (assign, nonatomic, readonly)
 
 #endif

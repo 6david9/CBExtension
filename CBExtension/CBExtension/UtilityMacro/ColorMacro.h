@@ -18,12 +18,12 @@
 #endif
 
 #define RGBAlphaColor(r, g, b, a) \
-            [UIColor colorWithRed:r/255.0\
-                            green:g/255.0\
-                             blue:b/255.0\
-                            alpha:a]
+            [UIColor colorWithRed:(r/255.0)\
+                            green:(g/255.0)\
+                             blue:(b/255.0)\
+                            alpha:(a)]
 
-#define OpaqueRGBColor(r, g, b) RGBAlphaColor(r, g, b, 1.0)
+#define OpaqueRGBColor(r, g, b) RGBAlphaColor((r), (g), (b), 1.0)
 
 #define RedColor    [UIColor redColor]
 #define GreedColor  [UIColor greenColor]

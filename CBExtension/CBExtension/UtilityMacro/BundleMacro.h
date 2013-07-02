@@ -9,8 +9,8 @@
 #ifndef BundleMacro_h
 #define BundleMacro_h
 
-#define PathForPNGResource(name)    [[NSBundle mainBundle] pathForResource:name ofType:@"png"]
+#define PathForPNGResource(name)    [[NSBundle mainBundle] pathForResource:(name) ofType:@"png"]
 
-#define PathForXMLResource(name)    [[NSBundle mainBundle] pathForResource:name ofType:@"xml"]
+#define PathForXMLResource(name)    [[NSBundle mainBundle] pathForResource:(name) ofType:@"xml"]
 
 #endif

@@ -10,7 +10,7 @@
 #define HuXiu_AlertViewMacro_h
 
 #define ShowAlerViewWithMessage(msg) \
-    [[[UIAlertView alloc] initWithTitle:nil message:msg delegate:nil \
+    [[[UIAlertView alloc] initWithTitle:nil message:(msg) delegate:nil \
         cancelButtonTitle:NSLocalizedString(@"好", @"OK") otherButtonTitles:nil] show];
 
 #endif

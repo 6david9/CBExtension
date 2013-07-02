@@ -9,6 +9,6 @@
 #ifndef ImageMacro_h
 #define ImageMacro_h
 
-#define CachedImage(image)   [UIImage imageNamed:image]
+#define CachedImage(image)   [UIImage imageNamed:(image)]
 
 #endif
