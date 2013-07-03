@@ -271,6 +271,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../CBExtension/CBExtension/**";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,6 +288,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../CBExtension/CBExtension/**";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +319,7 @@
 				08B881D9177F36A500A87CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,18 +9,18 @@
 #ifndef CBExtension_PropertyMacro_h
 #define CBExtension_PropertyMacro_h
 
-#define __has_feature(objc_arc)
-#define CB_STRONG   strong
+#if __has_feature(objc_arc)
+    #define CB_STRONG   strong
 #else 
-#define CB_STRONG   retain
+    #define CB_STRONG   retain
 #endif
 
-#define __has_feature(objc_arc_weak)
-#define CB_WEAK     weak
+#if __has_feature(objc_arc_weak)
+    #define CB_WEAK     weak
 #elif __has_feature(objc_arc)
-#define CB_WEAK     unsafe_unretained
+    #define CB_WEAK     unsafe_unretained
 #else
-#define CB_WEAK     assign
+    #define CB_WEAK     assign
 #endif
 
 
