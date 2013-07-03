@@ -16,5 +16,6 @@
 #import "URLMacro.h"
 #import "LogMacro.h"
 #import "PropertyMacro.h"
+#import "InitMacro.h"
 
 #endif
