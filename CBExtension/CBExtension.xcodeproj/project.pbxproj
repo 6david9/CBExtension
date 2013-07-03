@@ -29,6 +29,7 @@
 /* Begin PBXFileReference section */
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
+		08B1126017843A90005D7595 /* InitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitMacro.h; sourceTree = "<group>"; };
 		08B88181177F34EF00A87CB8 /* libCBExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B88184177F34EF00A87CB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08B88193177F35BE00A87CB8 /* FoundationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationExtension.h; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				08B881A5177F35BE00A87CB8 /* URLMacro.h */,
 				08A9BAA21780FB2E007E6027 /* PropertyMacro.h */,
 				08A9BAA6178153CE007E6027 /* WindowMacro.h */,
+				08B1126017843A90005D7595 /* InitMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
