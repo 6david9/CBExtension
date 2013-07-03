@@ -25,7 +25,11 @@
 
 #define OpaqueRGBColor(r, g, b) RGBAlphaColor((r), (g), (b), 1.0)
 
+
 #define RedColor    [UIColor redColor]
-#define GreedColor  [UIColor greenColor]
+#define GreenColor  [UIColor greenColor]
+#define BlackColor  [UIColor blackColor]
+#define ClearColor  [UIColor clearColor]
+
 
 #endif

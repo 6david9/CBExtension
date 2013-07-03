@@ -9,6 +9,7 @@
 #ifndef FontMacro_h
 #define FontMacro_h
 
-#define SystemFontOfSize(size)  [UIFont systemFontOfSize:(size)]
+#define SystemFontOfSize(size)      [UIFont systemFontOfSize:(size)]
+#define BoldSystemFontOfSize(size)  [UIFont boldSystemFontOfSize:(size)]
 
 #endif

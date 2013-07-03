@@ -10,5 +10,6 @@
 #define ImageMacro_h
 
 #define CachedImage(image)   [UIImage imageNamed:(image)]
+#define ImageWithPath(path)  [UIImage imageWithContentsOfFile:(path)]
 
 #endif
