@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		085BDB2017880E8F00C4AFDC /* NumberMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberMacro.h; sourceTree = "<group>"; };
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
 		08B1126017843A90005D7595 /* InitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitMacro.h; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				08A9BAA21780FB2E007E6027 /* PropertyMacro.h */,
 				08A9BAA6178153CE007E6027 /* WindowMacro.h */,
 				08B1126017843A90005D7595 /* InitMacro.h */,
+				085BDB2017880E8F00C4AFDC /* NumberMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
