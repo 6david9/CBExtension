@@ -12,5 +12,6 @@
 #import "NSFileManager+iCloud.h"
 #import "NSString+Extension.h"
 #import "NSArray+Extension.h"
+#import "UIImage+CBExtension.h"
 
 #endif

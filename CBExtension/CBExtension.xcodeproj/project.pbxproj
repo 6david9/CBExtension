@@ -9,6 +9,29 @@
 /* Begin PBXBuildFile section */
 		085BDB581789800900C4AFDC /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB571789800900C4AFDC /* DeviceInfo.m */; };
 		085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB5A1789806400C4AFDC /* IPAddress.m */; };
+		085BDB73178986BA00C4AFDC /* UIImage+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */; };
+		085BDB7B17898A5400C4AFDC /* CBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881DC177F38B700A87CB8 /* CBExtension.h */; };
+		085BDB7C17898A5400C4AFDC /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 085BDB561789800900C4AFDC /* DeviceInfo.h */; };
+		085BDB7D17898A5400C4AFDC /* IPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 085BDB591789806400C4AFDC /* IPAddress.h */; };
+		085BDB7E17898A5400C4AFDC /* FoundationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B88193177F35BE00A87CB8 /* FoundationExtension.h */; };
+		085BDB7F17898A5400C4AFDC /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B88194177F35BE00A87CB8 /* NSArray+Extension.h */; };
+		085BDB8017898A5400C4AFDC /* NSFileManager+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B88196177F35BE00A87CB8 /* NSFileManager+iCloud.h */; };
+		085BDB8117898A5400C4AFDC /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B88198177F35BE00A87CB8 /* NSString+Extension.h */; };
+		085BDB8217898A5400C4AFDC /* UIImage+CBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 085BDB71178986BA00C4AFDC /* UIImage+CBExtension.h */; };
+		085BDB8317898A5400C4AFDC /* RuntimeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B8819D177F35BE00A87CB8 /* RuntimeExtension.h */; };
+		085BDB8417898A5400C4AFDC /* NSObject+Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B8819B177F35BE00A87CB8 /* NSObject+Runtime.h */; };
+		085BDB8517898A5400C4AFDC /* UtilityMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A6177F35BE00A87CB8 /* UtilityMacro.h */; };
+		085BDB8617898A5400C4AFDC /* AlertViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B8819F177F35BE00A87CB8 /* AlertViewMacro.h */; };
+		085BDB8717898A5400C4AFDC /* BundleMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A0177F35BE00A87CB8 /* BundleMacro.h */; };
+		085BDB8817898A5400C4AFDC /* ColorMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A1177F35BE00A87CB8 /* ColorMacro.h */; };
+		085BDB8917898A5400C4AFDC /* FontMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A2177F35BE00A87CB8 /* FontMacro.h */; };
+		085BDB8A17898A5400C4AFDC /* ImageMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A3177F35BE00A87CB8 /* ImageMacro.h */; };
+		085BDB8B17898A5400C4AFDC /* LogMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A4177F35BE00A87CB8 /* LogMacro.h */; };
+		085BDB8C17898A5400C4AFDC /* URLMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B881A5177F35BE00A87CB8 /* URLMacro.h */; };
+		085BDB8D17898A5400C4AFDC /* PropertyMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A9BAA21780FB2E007E6027 /* PropertyMacro.h */; };
+		085BDB8E17898A5400C4AFDC /* WindowMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A9BAA6178153CE007E6027 /* WindowMacro.h */; };
+		085BDB8F17898A5400C4AFDC /* InitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B1126017843A90005D7595 /* InitMacro.h */; };
+		085BDB9017898A5400C4AFDC /* NumberMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 085BDB2017880E8F00C4AFDC /* NumberMacro.h */; };
 		08B88185177F34EF00A87CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B88184177F34EF00A87CB8 /* Foundation.framework */; };
 		08B881A7177F35BE00A87CB8 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B88195177F35BE00A87CB8 /* NSArray+Extension.m */; };
 		08B881A8177F35BE00A87CB8 /* NSFileManager+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B88197177F35BE00A87CB8 /* NSFileManager+iCloud.m */; };
@@ -16,24 +39,14 @@
 		08B881AA177F35BE00A87CB8 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B8819C177F35BE00A87CB8 /* NSObject+Runtime.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		08B8817F177F34EF00A87CB8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		085BDB2017880E8F00C4AFDC /* NumberMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberMacro.h; sourceTree = "<group>"; };
 		085BDB561789800900C4AFDC /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		085BDB571789800900C4AFDC /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		085BDB591789806400C4AFDC /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
 		085BDB5A1789806400C4AFDC /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
+		085BDB71178986BA00C4AFDC /* UIImage+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CBExtension.h"; sourceTree = "<group>"; };
+		085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CBExtension.m"; sourceTree = "<group>"; };
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
 		08B1126017843A90005D7595 /* InitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitMacro.h; sourceTree = "<group>"; };
@@ -81,6 +94,8 @@
 				08B88197177F35BE00A87CB8 /* NSFileManager+iCloud.m */,
 				08B88198177F35BE00A87CB8 /* NSString+Extension.h */,
 				08B88199177F35BE00A87CB8 /* NSString+Extension.m */,
+				085BDB71178986BA00C4AFDC /* UIImage+CBExtension.h */,
+				085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */,
 			);
 			name = Fundation;
 			sourceTree = "<group>";
@@ -189,6 +204,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		085BDB7A17898A3B00C4AFDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085BDB7B17898A5400C4AFDC /* CBExtension.h in Headers */,
+				085BDB7C17898A5400C4AFDC /* DeviceInfo.h in Headers */,
+				085BDB7D17898A5400C4AFDC /* IPAddress.h in Headers */,
+				085BDB7E17898A5400C4AFDC /* FoundationExtension.h in Headers */,
+				085BDB7F17898A5400C4AFDC /* NSArray+Extension.h in Headers */,
+				085BDB8017898A5400C4AFDC /* NSFileManager+iCloud.h in Headers */,
+				085BDB8117898A5400C4AFDC /* NSString+Extension.h in Headers */,
+				085BDB8217898A5400C4AFDC /* UIImage+CBExtension.h in Headers */,
+				085BDB8317898A5400C4AFDC /* RuntimeExtension.h in Headers */,
+				085BDB8417898A5400C4AFDC /* NSObject+Runtime.h in Headers */,
+				085BDB8517898A5400C4AFDC /* UtilityMacro.h in Headers */,
+				085BDB8617898A5400C4AFDC /* AlertViewMacro.h in Headers */,
+				085BDB8717898A5400C4AFDC /* BundleMacro.h in Headers */,
+				085BDB8817898A5400C4AFDC /* ColorMacro.h in Headers */,
+				085BDB8917898A5400C4AFDC /* FontMacro.h in Headers */,
+				085BDB8A17898A5400C4AFDC /* ImageMacro.h in Headers */,
+				085BDB8B17898A5400C4AFDC /* LogMacro.h in Headers */,
+				085BDB8C17898A5400C4AFDC /* URLMacro.h in Headers */,
+				085BDB8D17898A5400C4AFDC /* PropertyMacro.h in Headers */,
+				085BDB8E17898A5400C4AFDC /* WindowMacro.h in Headers */,
+				085BDB8F17898A5400C4AFDC /* InitMacro.h in Headers */,
+				085BDB9017898A5400C4AFDC /* NumberMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		08B88180177F34EF00A87CB8 /* CBExtension */ = {
 			isa = PBXNativeTarget;
@@ -196,7 +243,7 @@
 			buildPhases = (
 				08B8817D177F34EF00A87CB8 /* Sources */,
 				08B8817E177F34EF00A87CB8 /* Frameworks */,
-				08B8817F177F34EF00A87CB8 /* CopyFiles */,
+				085BDB7A17898A3B00C4AFDC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -244,6 +291,7 @@
 				08B881AA177F35BE00A87CB8 /* NSObject+Runtime.m in Sources */,
 				085BDB581789800900C4AFDC /* DeviceInfo.m in Sources */,
 				085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */,
+				085BDB73178986BA00C4AFDC /* UIImage+CBExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
