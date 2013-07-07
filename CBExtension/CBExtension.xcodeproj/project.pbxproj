@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085BDB581789800900C4AFDC /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB571789800900C4AFDC /* DeviceInfo.m */; };
+		085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB5A1789806400C4AFDC /* IPAddress.m */; };
 		08B88185177F34EF00A87CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B88184177F34EF00A87CB8 /* Foundation.framework */; };
 		08B881A7177F35BE00A87CB8 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B88195177F35BE00A87CB8 /* NSArray+Extension.m */; };
 		08B881A8177F35BE00A87CB8 /* NSFileManager+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B88197177F35BE00A87CB8 /* NSFileManager+iCloud.m */; };
@@ -28,6 +30,10 @@
 
 /* Begin PBXFileReference section */
 		085BDB2017880E8F00C4AFDC /* NumberMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberMacro.h; sourceTree = "<group>"; };
+		085BDB561789800900C4AFDC /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		085BDB571789800900C4AFDC /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		085BDB591789806400C4AFDC /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		085BDB5A1789806400C4AFDC /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
 		08B1126017843A90005D7595 /* InitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitMacro.h; sourceTree = "<group>"; };
@@ -66,6 +72,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085BDB5017897FBC00C4AFDC /* Fundation */ = {
+			isa = PBXGroup;
+			children = (
+				08B88194177F35BE00A87CB8 /* NSArray+Extension.h */,
+				08B88195177F35BE00A87CB8 /* NSArray+Extension.m */,
+				08B88196177F35BE00A87CB8 /* NSFileManager+iCloud.h */,
+				08B88197177F35BE00A87CB8 /* NSFileManager+iCloud.m */,
+				08B88198177F35BE00A87CB8 /* NSString+Extension.h */,
+				08B88199177F35BE00A87CB8 /* NSString+Extension.m */,
+			);
+			name = Fundation;
+			sourceTree = "<group>";
+		};
+		085BDB5117897FC700C4AFDC /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				08B8819B177F35BE00A87CB8 /* NSObject+Runtime.h */,
+				08B8819C177F35BE00A87CB8 /* NSObject+Runtime.m */,
+			);
+			name = Runtime;
+			sourceTree = "<group>";
+		};
+		085BDB551789800900C4AFDC /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				085BDB561789800900C4AFDC /* DeviceInfo.h */,
+				085BDB571789800900C4AFDC /* DeviceInfo.m */,
+				085BDB591789806400C4AFDC /* IPAddress.h */,
+				085BDB5A1789806400C4AFDC /* IPAddress.m */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
 		08A9BAA317810954007E6027 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				08B881DC177F38B700A87CB8 /* CBExtension.h */,
+				085BDB551789800900C4AFDC /* DeviceInfo */,
 				08B88192177F35BE00A87CB8 /* FoundationExtension */,
 				08B8819A177F35BE00A87CB8 /* RuntimeExtension */,
 				08B8819E177F35BE00A87CB8 /* UtilityMacro */,
@@ -124,12 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				08B88193177F35BE00A87CB8 /* FoundationExtension.h */,
-				08B88194177F35BE00A87CB8 /* NSArray+Extension.h */,
-				08B88195177F35BE00A87CB8 /* NSArray+Extension.m */,
-				08B88196177F35BE00A87CB8 /* NSFileManager+iCloud.h */,
-				08B88197177F35BE00A87CB8 /* NSFileManager+iCloud.m */,
-				08B88198177F35BE00A87CB8 /* NSString+Extension.h */,
-				08B88199177F35BE00A87CB8 /* NSString+Extension.m */,
+				085BDB5017897FBC00C4AFDC /* Fundation */,
 			);
 			path = FoundationExtension;
 			sourceTree = "<group>";
@@ -137,9 +172,8 @@
 		08B8819A177F35BE00A87CB8 /* RuntimeExtension */ = {
 			isa = PBXGroup;
 			children = (
-				08B8819B177F35BE00A87CB8 /* NSObject+Runtime.h */,
-				08B8819C177F35BE00A87CB8 /* NSObject+Runtime.m */,
 				08B8819D177F35BE00A87CB8 /* RuntimeExtension.h */,
+				085BDB5117897FC700C4AFDC /* Runtime */,
 			);
 			path = RuntimeExtension;
 			sourceTree = "<group>";
@@ -208,6 +242,8 @@
 				08B881A8177F35BE00A87CB8 /* NSFileManager+iCloud.m in Sources */,
 				08B881A9177F35BE00A87CB8 /* NSString+Extension.m in Sources */,
 				08B881AA177F35BE00A87CB8 /* NSObject+Runtime.m in Sources */,
+				085BDB581789800900C4AFDC /* DeviceInfo.m in Sources */,
+				085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
