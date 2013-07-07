@@ -17,5 +17,6 @@
 #import "LogMacro.h"
 #import "PropertyMacro.h"
 #import "InitMacro.h"
+#import "AlertViewMacro.h"
 
 #endif
