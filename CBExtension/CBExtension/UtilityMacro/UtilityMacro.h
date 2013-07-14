@@ -19,5 +19,6 @@
 #import "InitMacro.h"
 #import "AlertViewMacro.h"
 #import "ThreadMacro.h"
+#import "ScreenMacro.h"
 
 #endif
