@@ -1,13 +1,13 @@
 //
-//  CBImage.h
+//  CBGeometry.h
 //  CBExtension
 //
 //  Created by ly on 13-7-14.
 //  Copyright (c) 2013年 Lei Yan. All rights reserved.
 //
 
-#ifndef CBExtension_CBImage_h
-#define CBExtension_CBImage_h
+#ifndef CBExtension_CBGeometry_h
+#define CBExtension_CBGeometry_h
 
 /*** 返回被放大 scale 倍后的 rect
  * @discussion 错误返回 CGRectZero
@@ -20,6 +20,13 @@ CGRect CGRectMakeScale(CGRect rect, CGFloat scale)
     
     return CGRectMake(rect.origin.x * scale, rect.origin.y * scale ,
                       rect.size.width * scale, rect.size.height * scale);
+}
+
+/*** 返回顶点为 (0,0)， 大小与frame.size 相同的矩形*/
+CG_INLINE
+CGRect CGRectMakeFull(CGRect frame)
+{
+    return CGRectMake(0, 0, frame.size.width, frame.size.height);
 }
 
 #endif
