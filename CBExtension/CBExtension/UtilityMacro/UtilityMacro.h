@@ -21,5 +21,6 @@
 #import "ThreadMacro.h"
 #import "ScreenMacro.h"
 #import "ApplicationMacro.h"
+#import "ObjectMacro.h"
 
 #endif
