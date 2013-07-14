@@ -20,5 +20,6 @@
 #import "AlertViewMacro.h"
 #import "ThreadMacro.h"
 #import "ScreenMacro.h"
+#import "ApplicationMacro.h"
 
 #endif

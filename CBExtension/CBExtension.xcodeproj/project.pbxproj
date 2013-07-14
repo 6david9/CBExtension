@@ -73,6 +73,7 @@
 		08B881DC177F38B700A87CB8 /* CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBExtension.h; sourceTree = "<group>"; };
 		08E0378F17924730002EE36F /* ThreadMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadMacro.h; sourceTree = "<group>"; };
 		08E03790179248A1002EE36F /* ScreenMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenMacro.h; sourceTree = "<group>"; };
+		08E037911792498A002EE36F /* ApplicationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +139,7 @@
 				08B1126017843A90005D7595 /* InitMacro.h */,
 				085BDB2017880E8F00C4AFDC /* NumberMacro.h */,
 				08E03790179248A1002EE36F /* ScreenMacro.h */,
+				08E037911792498A002EE36F /* ApplicationMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
