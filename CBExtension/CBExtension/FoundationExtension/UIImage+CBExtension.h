@@ -10,6 +10,7 @@
 
 @interface UIImage (CBExtension)
 
-- (id)stretchableImage;
+/*** 返回可拉伸的图片 */
+- (UIImage *)stretchableImage;
 
 @end
