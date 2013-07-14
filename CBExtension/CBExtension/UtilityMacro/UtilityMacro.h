@@ -18,5 +18,6 @@
 #import "PropertyMacro.h"
 #import "InitMacro.h"
 #import "AlertViewMacro.h"
+#import "ThreadMacro.h"
 
 #endif

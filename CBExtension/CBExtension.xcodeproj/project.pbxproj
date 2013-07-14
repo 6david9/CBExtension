@@ -71,6 +71,7 @@
 		08B881A5177F35BE00A87CB8 /* URLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacro.h; sourceTree = "<group>"; };
 		08B881A6177F35BE00A87CB8 /* UtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacro.h; sourceTree = "<group>"; };
 		08B881DC177F38B700A87CB8 /* CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBExtension.h; sourceTree = "<group>"; };
+		08E0378F17924730002EE36F /* ThreadMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				08B8819F177F35BE00A87CB8 /* AlertViewMacro.h */,
+				08E0378F17924730002EE36F /* ThreadMacro.h */,
 				08B881A0177F35BE00A87CB8 /* BundleMacro.h */,
 				08B881A1177F35BE00A87CB8 /* ColorMacro.h */,
 				08B881A2177F35BE00A87CB8 /* FontMacro.h */,
