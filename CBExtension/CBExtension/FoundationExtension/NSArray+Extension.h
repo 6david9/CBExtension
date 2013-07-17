@@ -10,9 +10,13 @@
 
 @interface NSArray (Extension)
 
-/*** 合成字符串
+/*! 合成字符串
  * @discussion 将数组中的所有项合并成一个字符串
  */
 - (NSString *)composeString;
+
+
+/*! 返回数据的第一个元素 */
+- (id)firstObject;
 
 @end
