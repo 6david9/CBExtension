@@ -29,4 +29,15 @@ CGRect CGRectMakeFull(CGRect frame)
     return CGRectMake(0, 0, frame.size.width, frame.size.height);
 }
 
+/*** 返回在 r 中大小为 size，居中的矩形大小 */
+CG_INLINE
+CGRect CGRectCenterRectWithSize(CGRect r, CGSize size)
+{
+    CGRect newRect;
+    newRect.origin.x = (CGRectGetWidth(r)-size.width)/2.0;
+    newRect.origin.y = (CGRectGetHeight(r)-size.height)/2.0;
+    newRect.size = size;
+    return newRect;
+}
+
 #endif
