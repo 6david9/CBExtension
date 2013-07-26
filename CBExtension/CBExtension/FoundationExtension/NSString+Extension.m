@@ -88,4 +88,10 @@
     return (timeInterval + secondsOffset);
 }
 
+#pragma mark - Contains
+- (BOOL)contains:(NSString *)piece
+{
+    return ( [self rangeOfString:piece].location != NSNotFound );
+}
+
 @end

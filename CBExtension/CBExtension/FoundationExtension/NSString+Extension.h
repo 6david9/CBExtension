@@ -32,4 +32,6 @@
  */
 - (NSTimeInterval)localTimeIntervalFromString:(NSString *)timeString withDateFormat:(NSString *)format;
 
+- (BOOL)contains:(NSString *)piece;
+
 @end
