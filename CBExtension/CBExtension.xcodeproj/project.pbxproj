@@ -40,6 +40,8 @@
 		08E0379417924A8A002EE36F /* UIView+CBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E0379217924A8A002EE36F /* UIView+CBExtension.h */; };
 		08E0379517924A8A002EE36F /* UIView+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0379317924A8A002EE36F /* UIView+CBExtension.m */; };
 		08E0379717924AC8002EE36F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E0379617924AC8002EE36F /* QuartzCore.framework */; };
+		08EDEB1517A616B600A57EF9 /* NSData+CBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EDEB1317A616B600A57EF9 /* NSData+CBExtension.h */; };
+		08EDEB1617A616B600A57EF9 /* NSData+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDEB1417A616B600A57EF9 /* NSData+CBExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		08E0379617924AC8002EE36F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		08E037981792530C002EE36F /* CBGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBGeometry.h; sourceTree = "<group>"; };
 		08E037DB1792A429002EE36F /* ObjectMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectMacro.h; sourceTree = "<group>"; };
+		08EDEB1317A616B600A57EF9 /* NSData+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CBExtension.h"; sourceTree = "<group>"; };
+		08EDEB1417A616B600A57EF9 /* NSData+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CBExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */,
 				08E0379217924A8A002EE36F /* UIView+CBExtension.h */,
 				08E0379317924A8A002EE36F /* UIView+CBExtension.m */,
+				08EDEB1317A616B600A57EF9 /* NSData+CBExtension.h */,
+				08EDEB1417A616B600A57EF9 /* NSData+CBExtension.m */,
 				08E037981792530C002EE36F /* CBGeometry.h */,
 			);
 			name = Fundation;
@@ -252,6 +258,7 @@
 				085BDB8F17898A5400C4AFDC /* InitMacro.h in Headers */,
 				085BDB9017898A5400C4AFDC /* NumberMacro.h in Headers */,
 				08E0379417924A8A002EE36F /* UIView+CBExtension.h in Headers */,
+				08EDEB1517A616B600A57EF9 /* NSData+CBExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +321,7 @@
 				085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */,
 				085BDB73178986BA00C4AFDC /* UIImage+CBExtension.m in Sources */,
 				08E0379517924A8A002EE36F /* UIView+CBExtension.m in Sources */,
+				08EDEB1617A616B600A57EF9 /* NSData+CBExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
