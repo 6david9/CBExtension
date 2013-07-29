@@ -15,5 +15,6 @@
 #import "UIImage+CBExtension.h"
 #import "UIView+CBExtension.h"
 #import "CBGeometry.h"
+#import "NSData+CBExtension.h"
 
 #endif
