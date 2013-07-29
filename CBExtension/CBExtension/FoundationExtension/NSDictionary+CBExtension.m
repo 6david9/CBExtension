@@ -46,4 +46,10 @@
     return [[self valueForKey:key] unsignedLongLongValue];
 }
 
+#pragma mark - Extension for NSString
+- (NSString *)stringForKey:(NSString *)key
+{
+    return [[self valueForKey:key] description];
+}
+
 @end

@@ -24,4 +24,6 @@
 
 - (unsigned long long)unsignedLongLongForKey:(NSString *)key;
 
+- (NSString *)stringForKey:(NSString *)key;
+
 @end
