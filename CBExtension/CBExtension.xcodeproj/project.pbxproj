@@ -56,6 +56,7 @@
 		085BDB5A1789806400C4AFDC /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
 		085BDB71178986BA00C4AFDC /* UIImage+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CBExtension.h"; sourceTree = "<group>"; };
 		085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CBExtension.m"; sourceTree = "<group>"; };
+		0888B56317AA347800E8C784 /* SingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonMacro.h; sourceTree = "<group>"; };
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
 		08AD1A8B17A91623008C082E /* NSMutableSet+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+CBExtension.h"; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 				08E03790179248A1002EE36F /* ScreenMacro.h */,
 				08E037911792498A002EE36F /* ApplicationMacro.h */,
 				08E037DB1792A429002EE36F /* ObjectMacro.h */,
+				0888B56317AA347800E8C784 /* SingletonMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";

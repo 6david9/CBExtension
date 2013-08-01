@@ -22,5 +22,6 @@
 #import "ScreenMacro.h"
 #import "ApplicationMacro.h"
 #import "ObjectMacro.h"
+#import "SingletonMacro.h"
 
 #endif
