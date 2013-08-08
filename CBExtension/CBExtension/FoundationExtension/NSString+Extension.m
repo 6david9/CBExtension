@@ -94,4 +94,9 @@
     return ( [self rangeOfString:piece].location != NSNotFound );
 }
 
+- (NSString *)trim
+{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+}
+
 @end

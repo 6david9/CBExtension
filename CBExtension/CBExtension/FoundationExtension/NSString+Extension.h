@@ -34,4 +34,7 @@
 
 - (BOOL)contains:(NSString *)piece;
 
+// 删除字符串开头与结尾的空白符与换行
+- (NSString *)trim;
+
 @end

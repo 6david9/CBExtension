@@ -18,5 +18,6 @@
 #import "NSData+CBExtension.h"
 #import "NSDictionary+CBExtension.h"
 #import "NSMutableSet+CBExtension.h"
+#import "UIImageView+CBExtension.h"
 
 #endif
