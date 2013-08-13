@@ -12,4 +12,6 @@
 
 - (NSDictionary *)jsonObject;
 
++ (NSString *)contentTypeForImageData:(NSData *)data;
+
 @end
