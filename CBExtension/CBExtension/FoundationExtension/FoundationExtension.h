@@ -19,5 +19,6 @@
 #import "NSDictionary+CBExtension.h"
 #import "NSMutableSet+CBExtension.h"
 #import "UIImageView+CBExtension.h"
+#import "UIColor+CBExtension.h"
 
 #endif
