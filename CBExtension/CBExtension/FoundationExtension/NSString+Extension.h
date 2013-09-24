@@ -37,4 +37,7 @@
 // 删除字符串开头与结尾的空白符与换行
 - (NSString *)trim;
 
+/** 16进制的字符串返回10进制 unsigned int */
+- (uint)hex;
+
 @end

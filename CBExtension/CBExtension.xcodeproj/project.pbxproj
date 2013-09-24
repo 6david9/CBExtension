@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083C0DD417F12D30002BEAD6 /* UIColor+CBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 083C0DD217F12D30002BEAD6 /* UIColor+CBExtension.h */; };
+		083C0DD517F12D30002BEAD6 /* UIColor+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 083C0DD317F12D30002BEAD6 /* UIColor+CBExtension.m */; };
 		085BDB581789800900C4AFDC /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB571789800900C4AFDC /* DeviceInfo.m */; };
 		085BDB5B1789806400C4AFDC /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB5A1789806400C4AFDC /* IPAddress.m */; };
 		085BDB73178986BA00C4AFDC /* UIImage+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */; };
@@ -51,6 +53,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083C0DD217F12D30002BEAD6 /* UIColor+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CBExtension.h"; sourceTree = "<group>"; };
+		083C0DD317F12D30002BEAD6 /* UIColor+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CBExtension.m"; sourceTree = "<group>"; };
 		085BDB2017880E8F00C4AFDC /* NumberMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberMacro.h; sourceTree = "<group>"; };
 		085BDB561789800900C4AFDC /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		085BDB571789800900C4AFDC /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				08E037981792530C002EE36F /* CBGeometry.h */,
 				08E9E48A17B3668B00370ED6 /* UIImageView+CBExtension.h */,
 				08E9E48B17B3668B00370ED6 /* UIImageView+CBExtension.m */,
+				083C0DD217F12D30002BEAD6 /* UIColor+CBExtension.h */,
+				083C0DD317F12D30002BEAD6 /* UIColor+CBExtension.m */,
 			);
 			name = Fundation;
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 				085BDB8917898A5400C4AFDC /* FontMacro.h in Headers */,
 				085BDB8A17898A5400C4AFDC /* ImageMacro.h in Headers */,
 				085BDB8B17898A5400C4AFDC /* LogMacro.h in Headers */,
+				083C0DD417F12D30002BEAD6 /* UIColor+CBExtension.h in Headers */,
 				085BDB8C17898A5400C4AFDC /* URLMacro.h in Headers */,
 				085BDB8D17898A5400C4AFDC /* PropertyMacro.h in Headers */,
 				085BDB8E17898A5400C4AFDC /* WindowMacro.h in Headers */,
@@ -337,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B881A7177F35BE00A87CB8 /* NSArray+Extension.m in Sources */,
+				083C0DD517F12D30002BEAD6 /* UIColor+CBExtension.m in Sources */,
 				08B881A8177F35BE00A87CB8 /* NSFileManager+iCloud.m in Sources */,
 				08B881A9177F35BE00A87CB8 /* NSString+Extension.m in Sources */,
 				08B881AA177F35BE00A87CB8 /* NSObject+Runtime.m in Sources */,

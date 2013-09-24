@@ -99,4 +99,14 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+#pragma mark - Hex
+- (uint)hex
+{
+    uint hex = 0;
+    NSScanner *scanner = [NSScanner scannerWithString:self];
+    
+    [scanner scanHexInt:&hex];
+    return hex;
+}
+
 @end
