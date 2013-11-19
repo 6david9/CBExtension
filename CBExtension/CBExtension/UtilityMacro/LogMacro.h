@@ -20,12 +20,12 @@
 
 #else
 
-#define CBLog(format, ...)
-#define po(obj)       
-#define pi(var_i)     
-#define pf(var_f)
+#define CBLog(format, ...)  do{ }while(0)
+#define po(obj)             do{ }while(0)
+#define pi(var_i)           do{ }while(0)
+#define pf(var_f)           do{ }while(0)
 
-#define print_function()
+#define print_function()    do{ }while(0)
 
 #endif
 
