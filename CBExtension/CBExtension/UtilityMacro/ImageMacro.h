@@ -12,4 +12,7 @@
 #define CachedImage(image)   [UIImage imageNamed:(image)]
 #define ImageWithPath(path)  [UIImage imageWithContentsOfFile:(path)]
 
+#define PNGImage(NAME)       [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(NAME) ofType:@"png"]]
+#define JPGImage(NAME)       [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(NAME) ofType:@"jpg"]]
+
 #endif

@@ -25,7 +25,13 @@
 
 #define OpaqueRGBColor(r, g, b) RGBAlphaColor((r), (g), (b), 1.0)
 
-#define HexColor(c)   [UIColor colorWithHex:0x##c]
+//#define HexColor(c)   [UIColor colorWithHex:0x##c]
+
+#define HexColor(rgb) \
+[UIColor colorWithRed:((float)((rgb & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgb & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgb & 0xFF))/255.0 \
+alpha:1.0]
 
 
 #define BlackColor      [UIColor blackColor]

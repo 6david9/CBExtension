@@ -14,4 +14,6 @@
 
 #define PathForResourceOfType(res, type)    [[NSBundle mainBundle] pathForResource:(res) ofType:(type)]
 
+#define AppDisplayName          [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]
+
 #endif

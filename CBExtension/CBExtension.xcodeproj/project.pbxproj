@@ -62,6 +62,8 @@
 		085BDB5A1789806400C4AFDC /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
 		085BDB71178986BA00C4AFDC /* UIImage+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CBExtension.h"; sourceTree = "<group>"; };
 		085BDB72178986BA00C4AFDC /* UIImage+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CBExtension.m"; sourceTree = "<group>"; };
+		085D3A20185EC42300B33F89 /* ViewMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMacro.h; sourceTree = "<group>"; };
+		085D3A21185EC51B00B33F89 /* ConstantMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantMacro.h; sourceTree = "<group>"; };
 		0888B56317AA347800E8C784 /* SingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonMacro.h; sourceTree = "<group>"; };
 		08A9BAA21780FB2E007E6027 /* PropertyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyMacro.h; sourceTree = "<group>"; };
 		08A9BAA6178153CE007E6027 /* WindowMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowMacro.h; sourceTree = "<group>"; };
@@ -185,6 +187,8 @@
 				08E037911792498A002EE36F /* ApplicationMacro.h */,
 				08E037DB1792A429002EE36F /* ObjectMacro.h */,
 				0888B56317AA347800E8C784 /* SingletonMacro.h */,
+				085D3A20185EC42300B33F89 /* ViewMacro.h */,
+				085D3A21185EC51B00B33F89 /* ConstantMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";

@@ -11,4 +11,12 @@
 
 #define ScreenScale()     [[UIScreen mainScreen] scale]
 
+#define Application_Frame       [[UIScreen mainScreen] applicationFrame]
+
+#define Main_Screen_Height      ([[UIScreen mainScreen] bounds].size.height)
+#define Main_Screen_Width       ([[UIScreen mainScreen] bounds].size.width)
+
+#define App_Frame_Height        ([[UIScreen mainScreen] applicationFrame].size.height)
+#define App_Frame_Width         ([[UIScreen mainScreen] applicationFrame].size.width)
+
 #endif
