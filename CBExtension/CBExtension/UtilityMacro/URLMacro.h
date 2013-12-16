@@ -11,4 +11,6 @@
 
 #define URLFromString(str)   [NSURL URLWithString:(str)]
 
+#define RequestWithString(str)  [NSURLRequest requestWithURL:[NSURL URLWithString:(str)]]
+
 #endif
