@@ -9,7 +9,6 @@
 #ifndef CBExtension_CBExtension_h
 #define CBExtension_CBExtension_h
 
-#import "DeviceInfo.h"
 #import "FoundationExtension.h"
 #import "RuntimeExtension.h"
 #import "UtilityMacro.h"
